@@ -12,13 +12,13 @@
 
 ## 📫 How to Reach Me
 <div style="flex">
-  <a href="mailto:howiejayzh@gmail.com">
+  <a href="mailto:junhao.zhang2301@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" />
   </a>
   <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/junhao-zh/">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" />
   </a>
-  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/howiejayz/">
+  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dejayvu/">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
   </a>
 </div>
