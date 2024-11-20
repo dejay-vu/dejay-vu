@@ -18,7 +18,7 @@
   <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/junhao-zh/">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" />
   </a>
-  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dejayvu/">
+  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dejay_vu_/">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
   </a>
 </div>
