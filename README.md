@@ -1,5 +1,5 @@
 # Hello, I'm Junhao Zhang! 👋
-![profile views](https://komarev.com/ghpvc/?username=dejayv-vu)
+![profile views](https://komarev.com/ghpvc/?username=dejay-vu)
 [![wakatime](https://wakatime.com/badge/user/018b75d5-bdbf-4b28-954d-7c590ade7f91.svg)](https://wakatime.com/@018b75d5-bdbf-4b28-954d-7c590ade7f91)
 [![GitHub followers](https://img.shields.io/github/followers/howiejayz?label=Follow&style=social)](https://github.com/dejay-vu)
 
@@ -18,7 +18,7 @@
   <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/junhao-zh/">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="Linkedin" />
   </a>
-  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dejayvvu/">
+  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dejayyvu/">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
   </a>
 </div>
