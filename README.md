@@ -1,7 +1,7 @@
 # Hello, I'm Junhao Zhang! 👋
 ![profile views](https://komarev.com/ghpvc/?username=dejay-vu)
 [![wakatime](https://wakatime.com/badge/user/018b75d5-bdbf-4b28-954d-7c590ade7f91.svg)](https://wakatime.com/@018b75d5-bdbf-4b28-954d-7c590ade7f91)
-[![GitHub followers](https://img.shields.io/github/followers/howiejayz?label=Follow&style=social)](https://github.com/dejay-vu)
+[![GitHub followers](https://img.shields.io/github/followers/dejay-vu?label=Follow&style=social)](https://github.com/dejay-vu)
 
 ## 🚀 About Me
 - 🎓 **DPhil in Engineering Science** at **Oxford Uni**  
