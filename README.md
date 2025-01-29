@@ -5,7 +5,7 @@
 
 ## 🚀 About Me
 - 🎓 **DPhil in Engineering Science** at **Oxford Uni**  
-- 💼 **Previous Machine Learning Software Engineer** at **AMD**  
+- 💼 **Previously Machine Learning Software Engineer** at **AMD**  
 - 🌱 I’m highly skilled in C++ and Python.
 - 🔭 I have deep knowledge of PyTorch, CUDA, and HIP.
 
