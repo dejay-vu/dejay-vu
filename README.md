@@ -31,6 +31,17 @@
   </a>
 </p>
 
+## 📈 Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=dejay-vu&show_icons=true&hide_title=true&include_all_commits=true&hide_border=true" height="150" />
+  <img src="https://streak-stats.demolab.com?user=dejay-vu&hide_border=true" height="150" />
+</p>
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dejay-vu&layout=compact&hide_border=true" height="150" />
+  <img src="https://github-profile-trophy.vercel.app/?username=dejay-vu&margin-w=5&margin-h=5&no-frame=true" height="150" />
+</p>
+
+
 ## ⌨️ My Development Breakdown
 
 <!--START_SECTION:waka-->
