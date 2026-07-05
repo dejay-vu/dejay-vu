@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""junhao-smi — render all-time WakaTime coding stats as an nvidia-smi style panel.
+"""dejayvu-smi — render all-time WakaTime coding stats as an nvidia-smi style panel.
 
 Fetches https://wakatime.com/api/v1/users/current/stats/all_time (Basic auth with
 WAKATIME_API_KEY) and rewrites the block between the waka section markers in
 README.md. Stdlib only.
 
 Usage:
-  WAKATIME_API_KEY=... python scripts/junhao_smi.py       # live data, update README
-  python scripts/junhao_smi.py --fixture scripts/fixture_stats.json
-  python scripts/junhao_smi.py --fixture scripts/fixture_stats.json --dry-run
+  WAKATIME_API_KEY=... python scripts/dejayvu_smi.py       # live data, update README
+  python scripts/dejayvu_smi.py --fixture scripts/fixture_stats.json
+  python scripts/dejayvu_smi.py --fixture scripts/fixture_stats.json --dry-run
 """
 
 import argparse
@@ -88,7 +88,7 @@ def render(stats: dict, now: datetime) -> str:
         f"{now:%a %b} {now.day:2d} {now:%H:%M:%S %Y}",
         "+" + "-" * INNER + "+",
         full_row(
-            f" JUNHAO-SMI {FLAVOR['smi_version']:<15}"
+            f" DEJAYVU-SMI {FLAVOR['smi_version']:<15}"
             f"Driver Version: {FLAVOR['driver']:<18}"
             f"CUDA Version: {FLAVOR['cuda']}"
         ),

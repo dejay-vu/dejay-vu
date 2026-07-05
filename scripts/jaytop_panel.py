@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""nvtop panel — render the GitHub contribution timeline as an nvtop-style SVG.
+"""jaytop panel — render the GitHub contribution timeline as an nvtop-style SVG.
 
 Fetches the contribution calendar via the GitHub GraphQL API (bearer
 GITHUB_TOKEN) and draws a terminal window with a smoothed utilization curve
 (contributions/day, last 12 weeks) plus a streak/total status line. Stdlib only.
 
 Usage:
-  GITHUB_TOKEN=... python scripts/nvtop_panel.py
-  python scripts/nvtop_panel.py --fixture scripts/fixture_contrib.json
+  GITHUB_TOKEN=... python scripts/jaytop_panel.py
+  python scripts/jaytop_panel.py --fixture scripts/fixture_contrib.json
 """
 
 import argparse
@@ -192,7 +192,7 @@ def render(days: list[tuple[date, int]], total_12mo: int, today: date) -> str:
   <circle cx="22" cy="{BAR_H / 2}" r="5.5" fill="{DOT_RED}"/>
   <circle cx="42" cy="{BAR_H / 2}" r="5.5" fill="{DOT_YELLOW}"/>
   <circle cx="62" cy="{BAR_H / 2}" r="5.5" fill="{DOT_GREEN}"/>
-  <text x="{W / 2}" y="{BAR_H / 2 + 4}" text-anchor="middle" class="title">junhao@oxford: ~ (nvtop)</text>
+  <text x="{W / 2}" y="{BAR_H / 2 + 4}" text-anchor="middle" class="title">dejayvu@oxford: ~ (jaytop)</text>
   <text x="{W - 16}" y="{BAR_H / 2 + 4}" text-anchor="end" class="meta">updated {today.isoformat()}</text>
   <line x1="0.5" y1="{BAR_H}" x2="{W - 0.5}" y2="{BAR_H}" stroke="{BORDER}"/>
 
@@ -226,7 +226,7 @@ def render(days: list[tuple[date, int]], total_12mo: int, today: date) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--fixture", type=Path, help="render from a GraphQL response JSON file")
-    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parent.parent / "nvtop.svg")
+    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parent.parent / "jaytop.svg")
     args = parser.parse_args()
 
     if args.fixture:

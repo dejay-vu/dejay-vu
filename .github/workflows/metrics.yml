@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      # GitHub account stats only; languages omitted (junhao-smi covers language
+      # GitHub account stats only; languages omitted (dejayvu-smi covers language
       # time) and isocalendar omitted (the 3D calendar section covers it)
       - name: Render terminal dashboard
         uses: lowlighter/metrics@latest

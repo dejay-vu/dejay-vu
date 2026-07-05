@@ -19,19 +19,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Render junhao-smi panel
+      - name: Render dejayvu-smi panel
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: python scripts/junhao_smi.py
+        run: python scripts/dejayvu_smi.py
 
-      - name: Render nvtop panel
+      - name: Render jaytop panel
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/nvtop_panel.py
+        run: python scripts/jaytop_panel.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md nvtop.svg
-          git diff --cached --quiet || (git commit -m "chore: refresh junhao-smi and nvtop panels" && git pull --rebase origin main && git push)
+          git add README.md jaytop.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh dejayvu-smi and jaytop panels" && git pull --rebase origin main && git push)

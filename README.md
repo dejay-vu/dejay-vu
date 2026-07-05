@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:bb9af7,100:f7768e&height=220&section=header&text=junhao%40oxford&fontSize=52&fontColor=ffffff&animation=fadeIn&desc=GPU%20Kernels%20%C2%B7%20ML%20Systems%20%C2%B7%20DPhil%20%40%20Oxford&descSize=20&descAlignY=78&fontAlignY=42" width="100%" alt="header banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:bb9af7,100:f7768e&height=220&section=header&text=dejayvu%40oxford&fontSize=52&fontColor=ffffff&animation=fadeIn&desc=GPU%20Kernels%20%C2%B7%20ML%20Systems%20%C2%B7%20DPhil%20%40%20Oxford&descSize=20&descAlignY=78&fontAlignY=42" width="100%" alt="header banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=700&lines=DPhil+in+Engineering+Science+%40+Oxford;ex-AMD+ML+Software+Engineer;C%2B%2B+%C2%B7+Python+%C2%B7+CUDA+%C2%B7+HIP+%C2%B7+PyTorch;Building+fast+kernels+for+deep+learning+%F0%9F%9A%80" alt="typing intro" />
 
@@ -11,7 +11,7 @@
 
 </div>
 
-## 🖥️ `$ ssh junhao@oxford`
+## 🖥️ `$ ssh dejayvu@oxford`
 
 ```console
 Welcome to Junhao's brain — gpu-node-01 (GNU/Linux 6.6 x86_64)
@@ -24,9 +24,9 @@ Welcome to Junhao's brain — gpu-node-01 (GNU/Linux 6.6 x86_64)
 Last login: today, probably still compiling
 ```
 
-## ⚡ `$ junhao-smi`
+## ⚡ `$ dejayvu-smi`
 
-<!-- rendered daily from WakaTime by scripts/junhao_smi.py -->
+<!-- rendered daily from WakaTime by scripts/dejayvu_smi.py -->
 <!--START_SECTION:waka-->
 
 ```text
@@ -58,16 +58,16 @@ Sun Jul  5 15:20:09 2026
 <!--END_SECTION:waka-->
 
 <div align="center">
-<sub>live data via <a href="https://wakatime.com/@018b75d5-bdbf-4b28-954d-7c590ade7f91">WakaTime</a> · rendered daily by <a href="scripts/junhao_smi.py"><code>junhao_smi.py</code></a></sub>
+<sub>live data via <a href="https://wakatime.com/@018b75d5-bdbf-4b28-954d-7c590ade7f91">WakaTime</a> · rendered daily by <a href="scripts/dejayvu_smi.py"><code>dejayvu_smi.py</code></a></sub>
 </div>
 
-## 📈 `$ nvtop`
+## 📈 `$ jaytop`
 
 <div align="center">
 
-<img src="./nvtop.svg" width="95%" alt="GitHub contribution activity rendered as a GPU utilization graph" />
+<img src="./jaytop.svg" width="95%" alt="GitHub contribution activity rendered as a GPU utilization graph" />
 
-<sub>data via GitHub GraphQL · rendered daily by <a href="scripts/nvtop_panel.py"><code>nvtop_panel.py</code></a></sub>
+<sub>data via GitHub GraphQL · rendered daily by <a href="scripts/jaytop_panel.py"><code>jaytop_panel.py</code></a></sub>
 
 </div>
 
@@ -124,7 +124,7 @@ Sun Jul  5 15:20:09 2026
 
 </div>
 
-## 📫 `$ ping junhao`
+## 📫 `$ ping dejayvu`
 
 <div align="center">
 
