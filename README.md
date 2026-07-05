@@ -30,9 +30,9 @@ Last login: today, probably still compiling
 <!--START_SECTION:waka-->
 
 ```text
-Sun Jul  5 15:20:09 2026
+Sun Jul  5 15:33:02 2026
 +-----------------------------------------------------------------------------------------+
-| JUNHAO-SMI 5.0.0          Driver Version: DPhil@Oxford      CUDA Version: 12.8          |
+| DEJAYVU-SMI 5.0.0          Driver Version: DPhil@Oxford      CUDA Version: 12.8         |
 |-----------------------------------------+------------------------+----------------------|
 | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
