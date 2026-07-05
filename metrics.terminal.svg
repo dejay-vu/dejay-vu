@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="804" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="769" class="">
   
 
   <defs><style>@font-face {
@@ -18,7 +18,7 @@
 }
 </style></defs>
 
-  <style>@keyframes stdin-animation{0%{width:0%}to{width:100%}}@keyframes stdout-animation{0%{max-height:0}to{max-height:360px}}svg{font-family:"Courier Prime";font-size:14px;color:#565f89}.header{display:flex;justify-content:space-between;width:100%;height:20px;align-items:center;padding:0 8px;box-sizing:border-box;border-top-left-radius:5px;border-top-right-radius:5px;background:linear-gradient(#24283b 0,#16161e 100%)}.title{color:#a9b1d6;font-size:16px}.buttons{display:flex;align-items:center}.button{color:#000;display:flex;justify-content:center;margin-right:5px;font-size:8px;height:12px;width:12px;border-radius:100%;background:linear-gradient(#414868 0,#414868 100%);text-shadow:0 1px 0 rgba(255,255,255,.2)}.button.exit{background:linear-gradient(#f7768e 0,#db4b4b 100%)}.banner,footer,pre{margin:0;font-family:"Courier Prime"}pre{color:#a9b1d6;background:#1a1b26;padding:12px;border-radius:5px;border-top-left-radius:0;border-top-right-radius:0}.banner,footer{color:#565f89}.isocalendar svg{margin-top:-20px!important;filter:grayscale(1) brightness(.9) opacity(.7)}.ps1-path{color:#9ece6a}.ps1-location{color:#7aa2f7}.diff{color:#7dcfff}.stdin,.stdout,footer{overflow:hidden;animation-fill-mode:both}.stdin,footer{width:0%;white-space:nowrap;animation-name:stdin-animation}.stdout{max-height:0%;animation-name:stdout-animation}:root{--color-calendar-graph-day-bg:#24283b;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#2e4373;--color-calendar-graph-day-L2-bg:#4368b1;--color-calendar-graph-day-L3-bg:#5d87dd;--color-calendar-graph-day-L4-bg:#7aa2f7;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}.stdin{animation-duration:.16s}.stdout{animation-duration:.28s}.stdin:nth-of-type(1){animation-delay:0s}.stdout:nth-of-type(2){animation-delay:.16s}.stdin:nth-of-type(2){animation-delay:.44000000000000006s}.stdout:nth-of-type(3){animation-delay:.6000000000000001s}.stdin:nth-of-type(3){animation-delay:.8800000000000001s}.stdout:nth-of-type(4){animation-delay:1.04s}.stdin:nth-of-type(4){animation-delay:1.3200000000000003s}.stdout:nth-of-type(5){animation-delay:1.4800000000000002s}.stdin:nth-of-type(5){animation-delay:1.7600000000000002s}.stdout:nth-of-type(6){animation-delay:1.9200000000000002s}.stdin:nth-of-type(6){animation-delay:2.2s}.stdout:nth-of-type(7){animation-delay:2.3600000000000003s}.stdin:nth-of-type(7){animation-delay:2.64s}.stdout:nth-of-type(8){animation-delay:2.8000000000000003s}.stdin:nth-of-type(8){animation-delay:3.08s}.stdout:nth-of-type(9){animation-delay:3.24s}.stdin:nth-of-type(9){animation-delay:3.52s}.stdout:nth-of-type(10){animation-delay:3.68s}footer{animation-delay:3.52s}</style>
+  <style>@keyframes stdin-animation{0%{width:0%}to{width:100%}}@keyframes stdout-animation{0%{max-height:0}to{max-height:360px}}svg{font-family:"Courier Prime";font-size:14px;color:#565f89}.header{display:flex;justify-content:space-between;width:100%;height:20px;align-items:center;padding:0 8px;box-sizing:border-box;border-top-left-radius:5px;border-top-right-radius:5px;background:linear-gradient(#24283b 0,#16161e 100%)}.title{color:#a9b1d6;font-size:16px}.buttons{display:flex;align-items:center}.button{color:#000;display:flex;justify-content:center;margin-right:5px;font-size:8px;height:12px;width:12px;border-radius:100%;background:linear-gradient(#414868 0,#414868 100%);text-shadow:0 1px 0 rgba(255,255,255,.2)}.button.exit{background:linear-gradient(#f7768e 0,#db4b4b 100%)}.banner,footer,pre{margin:0;font-family:"Courier Prime"}pre{color:#a9b1d6;background:#1a1b26;padding:12px;border-radius:5px;border-top-left-radius:0;border-top-right-radius:0}.banner,footer{color:#565f89}.isocalendar svg{margin-top:-20px!important;filter:grayscale(1) brightness(.9) opacity(.7)}.ps1-path{color:#9ece6a}.ps1-location{color:#7aa2f7}.stdin,.stdout,footer{overflow:hidden;animation-fill-mode:both}.stdin,footer{width:0%;white-space:nowrap;animation-name:stdin-animation}.stdout{max-height:0%;animation-name:stdout-animation}:root{--color-calendar-graph-day-bg:#24283b;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#2e4373;--color-calendar-graph-day-L2-bg:#4368b1;--color-calendar-graph-day-L3-bg:#5d87dd;--color-calendar-graph-day-L4-bg:#7aa2f7;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}.stdin{animation-duration:.16s}.stdout{animation-duration:.28s}.stdin:nth-of-type(1){animation-delay:0s}.stdout:nth-of-type(2){animation-delay:.16s}.stdin:nth-of-type(2){animation-delay:.44000000000000006s}.stdout:nth-of-type(3){animation-delay:.6000000000000001s}.stdin:nth-of-type(3){animation-delay:.8800000000000001s}.stdout:nth-of-type(4){animation-delay:1.04s}.stdin:nth-of-type(4){animation-delay:1.3200000000000003s}.stdout:nth-of-type(5){animation-delay:1.4800000000000002s}.stdin:nth-of-type(5){animation-delay:1.7600000000000002s}.stdout:nth-of-type(6){animation-delay:1.9200000000000002s}.stdin:nth-of-type(6){animation-delay:2.2s}.stdout:nth-of-type(7){animation-delay:2.3600000000000003s}.stdin:nth-of-type(7){animation-delay:2.64s}.stdout:nth-of-type(8){animation-delay:2.8000000000000003s}.stdin:nth-of-type(8){animation-delay:3.08s}.stdout:nth-of-type(9){animation-delay:3.24s}footer{animation-delay:3.08s}</style>
   <style/>
 
   <foreignObject x="0" y="0" width="100%" height="100%">
@@ -37,14 +37,14 @@
 These generated metrics comes with ABSOLUTELY NO
 WARRANTY, to the extent permitted by applicable law.
 
-Last generated: 5 Jul 2026, 16:21:06
+Last generated: 5 Jul 2026, 16:27:13
 </div>
 <div class="stdin"><span class="ps1-path">dejay-vu@metrics</span>:<span class="ps1-location">~</span>$ whoami</div><div class="stdout"><b>Junhao Zhang</b> registered=8y, uid=1884, gid=0
   contributed to 9 repositories <b><span style="color:#3d59a1">#</span><span style="color:#7aa2f7">#</span><span style="color:#c0caf5">#</span><span style="color:#c0caf5">#</span><span style="color:#c0caf5">#</span><span style="color:#c0caf5">#</span><span style="color:#c0caf5">#</span><span style="color:#c0caf5">#</span><span style="color:#c0caf5">#</span><span style="color:#9ece6a">#</span><span style="color:#c0caf5">#</span><span style="color:#9ece6a">#</span><span style="color:#c0caf5">#</span><span style="color:#9ece6a">#</span></b>
   followed by <b>14</b> users
 </div>
 <div class="stdin"><span class="ps1-path">dejay-vu@metrics</span>:<span class="ps1-location">~</span>$ git status</div><div class="stdout"><b>Recent activity</b>
-  <b> 1559</b> commits
+  <b> 1560</b> commits
   <b>    0</b> pull requests reviewed
   <b>    6</b> pull requests opened
   <b>    0</b> issues opened
@@ -63,8 +63,6 @@ Last generated: 5 Jul 2026, 16:21:06
 dr-x  <b>    0</b>  packages
 dr-x         LICENSE
 -r--         └── MIT
-
-<span class="diff">@@ -0 +0 @@</span>
 </div>
 <div class="stdin"><span class="ps1-path">dejay-vu@metrics</span>:<span class="ps1-location">~</span>$ ncal -MB11</div><div class="stdout"><div class="isocalendar">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="margin-top: -130px;" viewBox="0,0 480,270">
@@ -1941,7 +1939,7 @@ dr-x         LICENSE
 
 
 
-<footer>Connection reset by 141.110.248.56</footer></pre>
+<footer>Connection reset by 216.0.255.17</footer></pre>
 
     </div>
     <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
