@@ -13,7 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      # GitHub account stats + full-year isocalendar + lines of code;
+      - uses: actions/checkout@v5
+
+      # GitHub account stats + full-year isocalendar;
       # languages intentionally omitted (junhao-smi already covers language time)
       - name: Render terminal dashboard
         uses: lowlighter/metrics@latest
@@ -26,4 +28,14 @@ jobs:
           config_timezone: Europe/London
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_lines: yes
+          output_action: none
+
+      - name: Retint to Tokyo Night and commit
+        run: |
+          sudo mv /metrics_renders/metrics.terminal.svg metrics.terminal.svg
+          sudo chown "$(id -u)" metrics.terminal.svg
+          python3 scripts/tokyonight_metrics.py metrics.terminal.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics.terminal.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh metrics dashboard" && git pull --rebase origin main && git push)
