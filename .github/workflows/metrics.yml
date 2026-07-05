@@ -26,6 +26,7 @@ jobs:
           filename: metrics.terminal.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
+          config_padding: 0, 4  # default is "0, 8 + 11%", which leaves a blank band below the card
           output_action: none
 
       - name: Retint to Tokyo Night and commit
