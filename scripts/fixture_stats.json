@@ -1,0 +1,21 @@
+{
+  "data": {
+    "total_seconds": 8688000,
+    "human_readable_total": "2,413 hrs 20 mins",
+    "start": "2023-10-27T00:00:00Z",
+    "end": "2026-07-02T00:00:00Z",
+    "is_up_to_date": true,
+    "languages": [
+      { "name": "Python", "total_seconds": 5410560, "percent": 56.72, "text": "1,502 hrs 56 mins" },
+      { "name": "TypeScript", "total_seconds": 1482600, "percent": 15.54, "text": "411 hrs 50 mins" },
+      { "name": "Other", "total_seconds": 851820, "percent": 8.93, "text": "236 hrs 37 mins" },
+      { "name": "JSON", "total_seconds": 453840, "percent": 4.76, "text": "126 hrs 4 mins" },
+      { "name": "Markdown", "total_seconds": 345720, "percent": 3.62, "text": "96 hrs 2 mins" },
+      { "name": "Bash", "total_seconds": 287280, "percent": 3.01, "text": "79 hrs 48 mins" },
+      { "name": "C++", "total_seconds": 234720, "percent": 2.46, "text": "65 hrs 12 mins" },
+      { "name": "Text", "total_seconds": 76620, "percent": 0.8, "text": "21 hrs 17 mins" },
+      { "name": "YAML", "total_seconds": 72360, "percent": 0.76, "text": "20 hrs 6 mins" },
+      { "name": "Docker", "total_seconds": 48780, "percent": 0.51, "text": "13 hrs 33 mins" }
+    ]
+  }
+}
