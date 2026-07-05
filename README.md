@@ -98,7 +98,7 @@ Sun Jul  5 15:20:09 2026
 
 <div align="center">
 
-<img src="./metrics.terminal.svg" width="95%" alt="GitHub account stats and full-year isometric contribution calendar" />
+<img src="./metrics.terminal.svg" width="95%" alt="GitHub account stats" />
 
 </div>
 

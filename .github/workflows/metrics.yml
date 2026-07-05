@@ -15,8 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      # GitHub account stats + full-year isocalendar;
-      # languages intentionally omitted (junhao-smi already covers language time)
+      # GitHub account stats only; languages omitted (junhao-smi covers language
+      # time) and isocalendar omitted (the 3D calendar section covers it)
       - name: Render terminal dashboard
         uses: lowlighter/metrics@latest
         with:
@@ -26,8 +26,6 @@ jobs:
           filename: metrics.terminal.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           output_action: none
 
       - name: Retint to Tokyo Night and commit
