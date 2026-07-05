@@ -7,7 +7,6 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=dejay-vu&style=for-the-badge&color=7aa2f7" alt="profile views" />
   <a href="https://github.com/dejay-vu"><img src="https://img.shields.io/github/followers/dejay-vu?style=for-the-badge&logo=github&labelColor=1a1b26&color=7aa2f7" alt="github followers" /></a>
-  <a href="https://wakatime.com/@018b75d5-bdbf-4b28-954d-7c590ade7f91"><img src="https://wakatime.com/badge/user/018b75d5-bdbf-4b28-954d-7c590ade7f91.svg" alt="wakatime" /></a>
 </p>
 
 </div>
@@ -58,6 +57,20 @@ Sun Jul  5 14:42:31 2026
 
 <!--END_SECTION:waka-->
 
+<div align="center">
+<sub>live data via <a href="https://wakatime.com/@018b75d5-bdbf-4b28-954d-7c590ade7f91">WakaTime</a> · rendered daily by <a href="scripts/junhao_smi.py"><code>junhao_smi.py</code></a></sub>
+</div>
+
+## 📈 `$ nvtop`
+
+<div align="center">
+
+<img src="./nvtop.svg" width="95%" alt="GitHub contribution activity rendered as a GPU utilization graph" />
+
+<sub>data via GitHub GraphQL · rendered daily by <a href="scripts/nvtop_panel.py"><code>nvtop_panel.py</code></a></sub>
+
+</div>
+
 ## 🧰 `$ ls ~/toolchain`
 
 <div align="center">
@@ -81,17 +94,11 @@ Sun Jul  5 14:42:31 2026
 
 </div>
 
-## 📊 `$ git log --stat`
+## 📟 `$ metrics`
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=dejay-vu&theme=tokyonight&hide_border=true" alt="contribution streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dejay-vu&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="activity graph" />
-
-<img src="./metrics.terminal.svg" width="80%" alt="metrics: isocalendar and languages" />
-
-<img src="./metrics.extras.svg" width="80%" alt="metrics: habits, achievements and stars" />
+<img src="./metrics.terminal.svg" width="95%" alt="GitHub account stats and full-year isometric contribution calendar" />
 
 </div>
 

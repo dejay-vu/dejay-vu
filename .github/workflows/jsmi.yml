@@ -1,4 +1,4 @@
-name: junhao-smi
+name: panels
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-readme:
+  update-panels:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -24,9 +24,14 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         run: python scripts/junhao_smi.py
 
+      - name: Render nvtop panel
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/nvtop_panel.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || (git commit -m "chore: refresh junhao-smi panel" && git pull --rebase origin main && git push)
+          git add README.md nvtop.svg
+          git diff --cached --quiet || (git commit -m "chore: refresh junhao-smi and nvtop panels" && git pull --rebase origin main && git push)
